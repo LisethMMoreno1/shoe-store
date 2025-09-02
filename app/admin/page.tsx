@@ -1,4 +1,4 @@
-import { AdminDashboard } from "@/components/admin/admin-dashboard";
+import { AdminDashboard } from "@/components/admin";
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 
