@@ -1,4 +1,4 @@
-import { AdminDashboard } from "@/components/admin/admin-dashboard";
+/* import { AdminDashboard } from "@/components/admin/admin-dashboard"; */
 import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
 
@@ -25,5 +25,5 @@ export default async function AdminPage() {
     redirect("/");
   }
 
-  return <AdminDashboard />;
+  /* return <AdminDashboard />; */
 }
